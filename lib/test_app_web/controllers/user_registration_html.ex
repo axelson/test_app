@@ -1,0 +1,5 @@
+defmodule TestAppWeb.UserRegistrationHTML do
+  use TestAppWeb, :html
+
+  embed_templates "user_registration_html/*"
+end
