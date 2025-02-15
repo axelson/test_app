@@ -32,6 +32,7 @@ defmodule TestApp.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
+      {:req, "~> 0.5"},
       {:igniter, "~> 0.5.24"},
       # Default deps
       {:bcrypt_elixir, "~> 3.0"},
